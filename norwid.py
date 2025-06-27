@@ -5,7 +5,7 @@ import datetime
 from dateutil import relativedelta
 
 
-required_variables = ['HEARTBEAT_FILE', 'THRESHOLD']
+required_variables = ['HEARTBEAT_FILE', 'THRESHOLD', 'MAIL_FILE']
 load_dotenv()
 
 
